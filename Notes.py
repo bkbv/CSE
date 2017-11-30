@@ -1,3 +1,4 @@
+import random
 # print("hello world")
 #
 # # victor buelna
@@ -59,7 +60,7 @@ def print_age(name,age):
 print_age("John", 15)
 
 def f(x):
-    return x**3 + 4 * x**2 * X - 4
+    return x**3 + 4 * x**2 * x - 4
 
 
 print (f(3))
@@ -70,7 +71,7 @@ print (f(5))
 # If statements
 
 
-def grade_calc(percentage)
+def grade_calc(percentage):
     if percentage >= 90:
         return "A"
     elif percentage >=80 :
@@ -81,3 +82,35 @@ def grade_calc(percentage)
         return "D"
     elif percentage >= 50:
         return "F"
+
+
+'''write a function called "happy_bday"
+that "sings" (print) Happy birthday
+
+It must take one parameter called "name"
+'''
+
+def happy_bday(name):
+    print("Happy birthday to you" + ",")
+    print("Happy birthday to you" + ",")
+    print("Happy birthday to " + name + ",")
+    print("Happy birthday to you" + ",")
+
+happy_bday("John")
+
+
+# Loops
+
+for num in range(10):
+    print(num + 1)
+
+# DO NOT RUN!!!
+a = 1
+while a < 10:
+    print(a)
+    a += 1
+
+
+# Random Numbers
+    
+print(random.randint(0,100))
