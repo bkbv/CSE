@@ -1,10 +1,10 @@
 class Person(object):
     def work(self):
         print("%s goes to work" % self.name)
+
     def __init__(self, name, age):
         self.name = name
         self.age = age
-
 
 
 class Employee(Person):
